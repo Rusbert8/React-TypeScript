@@ -2,6 +2,7 @@ import React from "react";
 import { Counter } from "./Components/Counter";
 import { TimerPadre } from "./Components/TimerPadre";
 import { User } from "./Components/User";
+import { CounterRed } from "./Components/CounterRed";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <User />
 
       <TimerPadre />
+
+      <CounterRed />
     </>
   );
 }
