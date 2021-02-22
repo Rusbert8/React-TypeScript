@@ -1,3 +1,7 @@
+import React from "react";
+import { Counter } from "./Components/Counter";
+import { User } from "./Components/User";
+
 function App() {
   return (
     <>
@@ -5,6 +9,9 @@ function App() {
 
       <hr/>
 
+      <Counter />
+
+      <User />
     </>
   );
 }
